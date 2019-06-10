@@ -13,7 +13,7 @@ class LoginForm extends React.Component {
   event.preventDefault()
   if (this.state.username && this.state.password)
   return this.props.handleLogin(this.state)
-  //our entire state object is the controlled form data, so we can send the entire object arounbd
+  //our entire state object is the controlled form data, so we can send the entire object around
 }
 
   handleChange = (event) => {
